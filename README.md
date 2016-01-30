@@ -1,8 +1,21 @@
 # test_gracenote
-quiz2 from gracenote
+quiz1 from gracenote
 
-Simple Meta-data Conversion.
+diskusage
 =======
+diskusage --mounted=/mnt/storage -logtype=file --logpath=/var/log/diskusage.log
+--mount :  default /
+--logtype : default stdout.
+--logpath : file only
 
-    g++ -o MetaConverter main.cpp -ljansson
-    tail -F RawMetaTracker_current | ./MetaConverter Rovild Tmsld
+USAGE
+======
+root@ip-172-30-1-81:/home/ubuntu/test_gracenote# python3 diskusage.py -h
+usage: diskusage.py [-h] [--mounted MOUNTED] [--logtype LOGTYPE]
+                    [--logpath LOGPATH]
+
+optional arguments:
+  -h, --help         show this help message and exit
+  --mounted MOUNTED
+  --logtype LOGTYPE
+  --logpath LOGPATH

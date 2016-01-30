@@ -1,7 +1,8 @@
 # test_gracenote
-quiz from gracenote
+quiz2 from gracenote
 
-- master - empty
-- quiz1 - disk monitoring
-- quiz2 - Simple Meta-data Conversion.
-- quiz3 - Implementing zone-based load balancing.
+Simple Meta-data Conversion.
+=======
+
+    g++ -o MetaConverter main.cpp -ljansson
+    tail -F RawMetaTracker_current | ./MetaConverter Rovild Tmsld

@@ -12,7 +12,7 @@ args = parser.parse_args()
 
 if args.logtype == 'file':
     if not args.logpath or args.logpath.strip()=="":
-        print("should enter the logpath")
+        print("you should enter the logpath")
         exit(0)
 
 LOG_FILENAME = args.logpath
